@@ -23,8 +23,7 @@ public class Main {
 
             System.out.println("Enter the contractor's address: ");
             String address = input.nextLine();
-
-
+        
             Person Architect = new Person(name, telephoneNum, email, address);
 
             System.out.println(Architect);
@@ -50,7 +49,6 @@ public class Main {
         System.out.println("What is the project fee? ");
         long projectFee = input.nextLong();
 
-
         System.out.println("What is the amount paid to date? ");
         long paidToDate = input.nextLong();
         input.nextLine();
@@ -61,13 +59,11 @@ public class Main {
         Project Poised = new Project(projectNum, projectName, buildingType, buildingAddress, erfNum, projectFee, paidToDate, deadline);
 
         System.out.println(Poised);
-
-
+        
         System.out.println("Menu: ");
         System.out.println("uc = update contractor details ");
         System.out.println("ua = update amount paid ");
         System.out.println("ud = update deadline: ");
-
 
         String menu = input.nextLine();
 
